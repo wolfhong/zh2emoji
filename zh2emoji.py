@@ -65,3 +65,7 @@ if __name__ == '__main__':
     print image2print(word2image(u'酱'), u'W ')
     print image2print(word2image(u'酱'), u'❤️ ')
     print image2print(word2image(u'酱'), u'酱', width=40)
+    print image2print(word2image(u'狗'), u'🐶 ')
+    print image2print(word2image(u'熊'), u'🐻 ')
+    print image2print(word2image(u'色'), u'😍 ')
+    print image2print(word2image(u'哭'), u'😂 ')

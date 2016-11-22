@@ -39,6 +39,23 @@ emoji表情可以自己随意定制: ❤️  🐀  🐂  🐅  🐇  🐶  🐱 
 
 zh2emoji 还支持更换字体,不过在终端打印出来也差别不大.
 
+## 安装
+
+zh2emoji依赖于PIL库, 该库可通过安装Pillow引入.
+
+    pip install Pillow==2.9.0
+
+如果安装过程中提示错误, 可通过添加一些系统依赖来解决.
+
+以CentOS为例, 其他类型的系统类比:
+
+    yum install -y libjpeg* libpng-devel libtiff-devel
+
+上面代码安装了一些开发图片绘制相关的系统依赖。如果系统还想支持一些webp等图片格式, 那么还需要安装:
+
+    yum install -y freetype-devel
+    yum install -y libwebp-devel
+
 ## 其他
 
 如果你对这有兴趣, 而且有一些有意思的建议, 如果我能够实现, 我会在后续中贡献出更加有趣的内容.

@@ -62,9 +62,9 @@ if __name__ == '__main__':
     对于emoji表情, 可能跟终端的打印方式有关, 对比后自行决定后面需不需要加上空格填充;
     对于中文,输出正好
     '''
-    print image2print(word2image(u'酱'), u'W ')
-    print image2print(word2image(u'酱'), u'❤️ ')
-    print image2print(word2image(u'酱'), u'酱', width=40)
+    print image2print(word2image(u'茴'), u'W ')
+    print image2print(word2image(u'茴'), u'❤️ ')
+    print image2print(word2image(u'茴'), u'茴', width=40)
     print image2print(word2image(u'狗'), u'🐶 ')
     print image2print(word2image(u'熊'), u'🐻 ')
     print image2print(word2image(u'色'), u'😍 ')

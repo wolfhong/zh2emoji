@@ -35,7 +35,7 @@ def word2image(word, width=400, fontpath='PingFangBold.ttf'):
     return img
 
 
-def image2print(img, char='❤️ ', width=40):
+def image2print(img, char='字', width=40):
     '''
     @brief 将图片转化为字符串,字符串可以在终端打印出来
     @params img: 待打印的白底黑字的图片.
@@ -70,7 +70,9 @@ if __name__ == '__main__':
     对于emoji表情, 可能跟终端的打印方式有关, 对比后自行决定后面需不需要加上空格填充;
     对于中文,输出正好;
     '''
+    sys.stdout.write(image2print(word2image('茴'), 'W ', width=40))
+    sys.stdout.write("\n")
     sys.stdout.write(image2print(word2image('茴'), '茴', width=40))
     sys.stdout.write("\n")
-    sys.stdout.write(image2print(word2image('熊'), '🐻 '))
+    sys.stdout.write(image2print(word2image('熊'), '熊'))
     sys.stdout.write("\n")

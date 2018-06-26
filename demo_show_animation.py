@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 import sys
 import time
 from zh2emoji import word2image, image2print
@@ -13,7 +14,8 @@ def show_animation(words):
     '''
     for word in words:
         _img = word2image(word)
-        print(image2print(_img))
+        sys.stdout.write(image2print(_img, '字', width=30))
+        sys.stdout.write('\n')
         time.sleep(0.2)
 
 

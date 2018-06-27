@@ -35,7 +35,7 @@ def word2image(word, width=400, fontpath='PingFangBold.ttf'):
     return img
 
 
-def image2print(img, char='字', width=40):
+def image2print(img, char, width=40):
     '''
     @brief 将图片转化为字符串,字符串可以在终端打印出来
     @params img: 待打印的白底黑字的图片.

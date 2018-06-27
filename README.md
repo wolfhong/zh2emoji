@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/wolfhong/zh2emoji.svg?branch=master)](https://travis-ci.org/wolfhong/zh2emoji)
+
 ## 介绍 
 
 `zh2emoji`可以将一个汉字，在终端输出成由emoji字符组成的该字。 emoji字符可以自己随意定制: ❤️  🐀  🐂  🐅  🐇  🐶  🐱  🐻  ...
